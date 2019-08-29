@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "consoleresourcetestb37cbed8",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "api54b8e38d",
+    "apiName": "api54b8e38d",
+    "functionArns": [
+        {
+            "lambdaFunction": "consoleresourcetestb37cbed8"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "consoleresourcetest-dev-20190829114525-authRole",
+        "unAuthRoleName": "consoleresourcetest-dev-20190829114525-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "consoleresourcetestb37cbed8",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

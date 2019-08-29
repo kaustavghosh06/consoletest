@@ -1,0 +1,9 @@
+{
+    "permissions": {
+        "storage": {
+            "dynamod7fd13c7": [
+                "create"
+            ]
+        }
+    }
+}
